@@ -1,0 +1,8 @@
+<!-- LIST OF PLAYERS -->
+<h2>Pentaianer</h2>
+<ul class="players">
+  <li *ngFor="let player of players" class="notSelected" [class.selected]="player === selectedPlayer" (click)="onSelect(player)">
+    <span class="badge">{{player.name}}</span> {{player.points}}
+  </li>
+</ul>
+<app-player-detail [player]="selectedPlayer"></app-player-detail>
