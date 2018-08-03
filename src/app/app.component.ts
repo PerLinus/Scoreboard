@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Team Pentas ScoreBoard';
+  motto = 'Vi håller Pentahjärtat friskt!';
 }
